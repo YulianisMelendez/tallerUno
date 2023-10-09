@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio#2</title>
+    <link rel="stylesheet" href="../CSS/Ejercicio2.css">
+    <script src="../JS/Ejercicio2.js"></script>
+</head>
+<body>
+
+    <h2>Registro de Estudiantes</h2>
+
+    <form id="registro">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre"><br>
+        <label for="edad">Edad:</label><br>
+        <input type="text" id="edad" name="edad"><br>
+        <label for="id">Número de Identificación:</label><br>
+        <input type="text" id="id" name="id"><br>
+        <input type="button" value="Agregar Estudiante" onclick="agregarEstudiante()">
+    </form>
+
+    <h2>Buscar Estudiante</h2>
+
+    <form id="buscar">
+        <label for="buscarId">Número de Identificación a buscar:</label><br>
+        <input type="text" id="buscarId" name="buscarId"><br>
+        <input type="button" value="Buscar Estudiante" onclick="buscarEstudiante()">
+    </form>
+
+    <p id="resultado"></p>
+
+</body>
+</html>
