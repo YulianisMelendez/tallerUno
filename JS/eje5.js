@@ -2,7 +2,7 @@ let preguntas = [
     { pregunta: "¿Cuántos minutos tiene una hora?", respuesta: "60 minutos" },
     { pregunta: "¿Cuál es el río más largo del mundo?", respuesta: "Rio Amazonas" },
     { pregunta: "¿En qué año comenzó la Segunda Guerra Mundial?", respuesta: "1939" },
-    { pregunta: "¿Cuál es la montaña más alta del mundo?", respuesta: "El Monte Everest" },
+    { pregunta: "¿Cuál es la montaña más alta del mundo?", respuesta: "Everest" },
     { pregunta: "¿Cuántas patas tiene una araña?", respuesta: "8 patas" }
 ];
 
