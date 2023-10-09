@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio#6</title>
+    <link rel="stylesheet" href="../CSS/Ejercicio6.css">
+    <script src="../JS/Ejercicio6.js"></script>
+</head>
+<body>
+    <h2>Sistema de Gestión de Libros</h2>
+
+    <div id="agregarLibro">
+        <label for="titulo">Título:</label>
+        <input type="text" id="titulo" name="titulo"><br>
+        <label for="autor">Autor:</label>
+        <input type="text" id="autor" name="autor"><br>
+        <label for="anio">Año de Publicación:</label>
+        <input type="number" id="año" name="año"><br>
+        <input type="button" value="Agregar Libro" onclick="agregarLibro()">
+    </div>
+
+    <div id="buscarLibro">
+        <label for="tituloBusqueda">Título a buscar:</label>
+        <input type="text" id="tituloBusqueda" name="tituloBusqueda"><br>
+        <input type="button" value="Buscar Libro" onclick="buscarLibro()">
+    </div>
+
+    <div id="resultado"></div>
+        
+</body>
+</html>

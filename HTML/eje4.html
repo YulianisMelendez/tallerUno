@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio#4</title>
+    <link rel="stylesheet" href="../CSS/Ejercicio4.css">
+    <script src="../JS/Ejercicio4.js"></script>
+</head>
+<body>
+    <h2>Generador de Tabla de Multiplicar</h2>
+
+    <form id="generador">
+        <label for="numero">Seleccione un número:</label><br>
+        <input type="number" id="numero" name="numero" min="1" max="10"><br>
+        <label for="filas">Número de filas a mostrar:</label><br>
+        <input type="number" id="filas" name="filas" min="1" max="10"><br>
+        <input type="button" value="Generar Tabla" onclick="generarTabla()">
+    </form>
+    <div id="tabla"></div>
+
+</body>
+</html>
