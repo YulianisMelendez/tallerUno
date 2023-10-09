@@ -1,9 +1,9 @@
 let preguntas = [
-    { pregunta: "¿Cuál es el elemento químico más abundante en la Tierra?", respuesta: "El oxigeno" },
-    { pregunta: "¿Cuál es el río más largo del mundo?", respuesta: "El rio Amazonas" },
+    { pregunta: "¿Cuántos minutos tiene una hora?", respuesta: "60 minutos" },
+    { pregunta: "¿Cuál es el río más largo del mundo?", respuesta: "Rio Amazonas" },
     { pregunta: "¿En qué año comenzó la Segunda Guerra Mundial?", respuesta: "1939" },
     { pregunta: "¿Cuál es la montaña más alta del mundo?", respuesta: "El Monte Everest" },
-    { pregunta: "¿Cuál es el país más grande del mundo por superficie?", respuesta: "Rusia" }
+    { pregunta: "¿Cuántas patas tiene una araña?", respuesta: "8 patas" }
 ];
 
 let puntuacion = 0;
